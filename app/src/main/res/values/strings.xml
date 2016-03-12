@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RealExDroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">The amount to charge in €</string>
+    <string name="button_send">Send the shit</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="display_message">HPP</string>
+    <string name="title_activity_payment_res">PaymentResActivity</string>
+    <string name="label_payment_res">Payment Restult => </string>
+    <string name="placeholder_payment_amount">Placeholder for payment amount</string>
+    <string name="label_payment_amount">Amount in € => </string>
+</resources>

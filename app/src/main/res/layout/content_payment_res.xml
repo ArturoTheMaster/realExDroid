@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.artursynowiec.realexdroid.PaymentResActivity"
+    tools:showIn="@layout/activity_payment_res">
+
+    <TextView
+        android:id="@+id/label_pay_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_payment_res" />
+
+    <TextView
+        android:id="@+id/text_pay_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_payment_amount"
+        android:layout_toRightOf= "@id/label_pay_res"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+
+        />
+
+    <TextView
+        android:id="@+id/label_pay_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_payment_amount"
+        android:layout_below="@id/label_pay_res"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:textStyle="italic" />
+
+</RelativeLayout>
